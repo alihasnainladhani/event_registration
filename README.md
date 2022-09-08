@@ -1,4 +1,4 @@
-# My Awesome Project
+# Event Management
 
 Behold My Awesome Project!
 
