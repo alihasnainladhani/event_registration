@@ -45,4 +45,4 @@ class UserRedirectView(LoginRequiredMixin, RedirectView):
         return reverse("users:detail", kwargs={"username": self.request.user.username})
 
 
-user_redirect = UserRedirectView.as_view()
+user_redirect_view = UserRedirectView.as_view()
